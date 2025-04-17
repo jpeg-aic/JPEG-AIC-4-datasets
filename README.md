@@ -4,7 +4,7 @@ This dataset is prepared for the Final Call for Proposals on Objective Quality A
 
 The documnet for the Common Test Conditions on Objective Image Quality Assessment can be found here.
 
-The JPEG link for this call can be accessed at: (aicdb.jpeg.org)
+The JPEG link for this call can be accessed at: http://aicdb.jpeg.org
 
 **Repository:** `JPEG-AIC-4 Example Dataset`
 
