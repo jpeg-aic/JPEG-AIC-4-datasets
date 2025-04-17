@@ -6,6 +6,7 @@ The goal of the [AIC-4 activity](https://jpeg.org/aic/index.html) is to collect 
 that cover the range from good quality to lossless coding.
 Such a metric quantifies perceptual differences between stimuli, in particular between a source image and a distorted image.
 The proposals should target specifically distortions due to compression and not necessarily other kinds of distortions, e.g., capture, sensor, or rendering artifacts.
+The proposed metrics shall estimate image quality in units of just noticeable difference (JND).
 
 Main page: https://aicdb.jpeg.org
 
