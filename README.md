@@ -22,7 +22,8 @@ Testolina, Michela, Mohsen Jenadeleh, Shima Mohammadi, Shaolin Su, Joao Ascenso,
 
 ### `JPEG_AIC_reconstructed_jnd_scores.csv`
 
-Responses from participants in the BTC (Boosted Triplet Comparison) experiment.
+Reconstructed scores in JND units for teh percived distortion using JPEG AIC-3  test methodlogy.
+
 
 #### Columns
 
@@ -37,6 +38,11 @@ Responses from participants in the BTC (Boosted Triplet Comparison) experiment.
 | `CI_min`          | Numeric     | The lower bound of 95% confidence interval of the estimated JND score.                           |   
 | `CI_max`          | Numeric     | The upper bound of 95% confidence interval of the estimated JND score.                           |                  
                
+### `JPEG-AIC_metric_scores.csv`
+
+Objective scores for the percived distortion predicted by some anchor objective image quality assessment (IQA) metrics. The scores are mapped to from the metric original scale to JND units using teh following mapping function: 
+
+#### Columns
 
 ## Contact
 
