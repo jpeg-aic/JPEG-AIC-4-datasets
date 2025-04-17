@@ -1,3 +1,11 @@
+# Call for Proposal 
+
+Link to the Final Call of Proposal on Objective Quality Assessment (AIC-4)
+
+Link to the Common Test Condition on objective Image Quality Assessment
+
+Link to the [Use Cases and Requirements for Image Quality Assessment v6.0](https://github.com/user-attachments/assets/81c0cc80-775f-4a65-a344-e96897d575d6)
+
 
 # JPEG-AIC-4 Example Dataset
 
@@ -6,14 +14,6 @@ This dataset is prepared for the Final Call for Proposals on Objective Quality A
 The documnet for the Common Test Conditions on Objective Image Quality Assessment can be found here.
 
 The JPEG link for this call can be accessed at: https://aicdb.jpeg.org
-
-## Relevent Documents
-
-Link to the Final Call of Proposal on Objective Quality Assessment (AIC-4)
-
-Link to the Common Test Condition on objective Image Quality Assessment
-
-Link to the [Use Cases and Requirements for Image Quality Assessment v6.0](https://github.com/user-attachments/assets/81c0cc80-775f-4a65-a344-e96897d575d6)
 
 
 ## Repository: `JPEG-AIC-4 Example Dataset`
@@ -27,20 +27,20 @@ Jenadeleh, Mohsen, Jon Sneyers, Panqi Jia, Shima Mohammadi, Joao Ascenso, and Di
 
 Testolina, Michela, Mohsen Jenadeleh, Shima Mohammadi, Shaolin Su, Joao Ascenso, Touradj Ebrahimi, Jon Sneyers, and Dietmar Saupe. "Fine-grained subjective visual quality assessment for high-fidelity compressed images." arXiv preprint arXiv:2410.09501 (2024) (Accepted at Data Compression Conference (DCC)), https://arxiv.org/pdf/2410.09501.
 
-## Folders Descriptions:
+### Folders Descriptions:
 
 - `full_resolution_images`: This folder contains the encoded full resolution test images and their sources.  
 - `PTC_images`: This folder contains the cropped versions of the test images that were used for the subjective quality assessmnet.  
 
 
-## File Descriptions
+### File Descriptions
 
-### `JPEG_AIC_reconstructed_jnd_scores.csv`
+#### `JPEG_AIC_reconstructed_jnd_scores.csv`
 
 Reconstructed scores in JND units for teh percived distortion using JPEG AIC-3  test methodlogy.
 
 
-#### Columns
+##### Columns
 
 | Column Name       | Type        | Description                                                                                      |
 |-------------------|-------------|--------------------------------------------------------------------------------------------------|
@@ -53,13 +53,13 @@ Reconstructed scores in JND units for teh percived distortion using JPEG AIC-3  
 | `CI_min`          | Numeric     | The lower bound of 95% confidence interval of the estimated JND score.                           |   
 | `CI_max`          | Numeric     | The upper bound of 95% confidence interval of the estimated JND score.                           |                  
                
-### `JPEG-AIC_metric_scores.csv`
+#### `JPEG-AIC_metric_scores.csv`
 
 Objective scores for the percived distortion predicted by some anchor objective image quality assessment (IQA) metrics. The scores are mapped to from the metric original scale to JND units using the following mapping function: 
 
 f(x)=(α⋅min(0,β−x)) 
 
-#### Columns
+##### Columns
 
 | Column Name       | Type        | Description                                                                                      |
 |-------------------|-------------|--------------------------------------------------------------------------------------------------|
