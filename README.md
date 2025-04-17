@@ -7,7 +7,7 @@ The documnet for the Common Test Conditions on Objective Image Quality Assessmen
 
 The JPEG link for this call can be accessed at: https://aicdb.jpeg.org
 
-# Relevent Documents
+** Relevent Documents**
 
 Link to the Final Call of Proposal on Objective Quality Assessment (AIC-4)
 
