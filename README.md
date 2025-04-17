@@ -14,7 +14,7 @@ The JPEG link for this call can be accessed at: https://aicdb.jpeg.org
 
 This dataset contains the test images and the subjective quality scores for the JPEG AIC-3 image quality assessment(IQA)dataset. 
 
-For detailed information about the **Subjective study and the scale reconstruction methods**, see the methodology presented in the following papers:
+For detailed information about the Subjective study and the scale reconstruction methods, see the methodology presented in the following papers:
 
 Jenadeleh, Mohsen, Jon Sneyers, Panqi Jia, Shima Mohammadi, Joao Ascenso, and Dietmar Saupe. "Subjective Visual Quality Assessment for High-Fidelity Learning-Based Image Compression." arXiv preprint arXiv:2504.06301 (2025), https://arxiv.org/abs/2504.06301.
 
