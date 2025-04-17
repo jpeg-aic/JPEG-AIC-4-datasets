@@ -7,7 +7,7 @@ The documnet for the Common Test Conditions on Objective Image Quality Assessmen
 
 The JPEG link for this call can be accessed at: https://aicdb.jpeg.org
 
-**Relevent Documents**
+##Relevent Documents
 
 Link to the Final Call of Proposal on Objective Quality Assessment (AIC-4)
 
@@ -16,7 +16,7 @@ Link to the Common Test Condition on objective Image Quality Assessment
 Link to the [Use Cases and Requirements for Image Quality Assessment v6.0](https://github.com/user-attachments/assets/81c0cc80-775f-4a65-a344-e96897d575d6)
 
 
-**Repository:** `JPEG-AIC-4 Example Dataset`
+##Repository: `JPEG-AIC-4 Example Dataset`
 
 [Download JPEG-AIC-4 Example Dataset](https://aicdb.jpeg.org/aic-4/JPEG-AIC-4-example-dataset.zip)
 
