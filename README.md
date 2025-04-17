@@ -46,13 +46,13 @@ Objective scores for the percived distortion predicted by some anchor objective 
 
 | Column Name       | Type        | Description                                                                                      |
 |-------------------|-------------|--------------------------------------------------------------------------------------------------|
-| `img_distorted`   | Categorical | Filename of the compressed (test) image.                                                           |
+| `img_distorted`   | Categorical | Filename of the compressed (test) image.                                                         |
 | `img_num`         | Numeric     | Source image ID.                                                                                 |
 | `codec`           | Numeric     | Codec used for the test image.                                                                   |
 | `dlevel`          | Numeric     | Distortion level of the test image.                                                              |
 | `distortion`      | Numeric     | The reconstructed subjective scale value in JND (just noticeable difference) unites.             |
-| `metric`          | Numeric     | The perdicted quality score by the objective metric fro the test image in the original scale.                           |   
-| `metric mapped`   | Numeric     | The upper bound of 95% confidence interval of the estimated JND score.                           |  
+| `metric`          | Numeric     | The perdicted quality score by the objective metric fro the test image in the original scale.    |   
+| `metric mapped`   | Numeric     | The mapped objective score to JND unites using a mapping function.                               |  
 
 ## Contact
 
