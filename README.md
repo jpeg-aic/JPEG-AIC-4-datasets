@@ -1,19 +1,20 @@
-# Call for Proposal 
+# JPEG AIC-4 Example Dataset
 
-Link to the Final Call of Proposal on Objective Quality Assessment (AIC-4)
+This dataset provides an example dataset related to the [Final Call for Proposals on Objective Quality Assessment (AIC-4)](https://jpeg.org/aic/documentation.html).
 
-Link to the Common Test Condition on objective Image Quality Assessment
+The goal of the [AIC-4 activity](https://jpeg.org/aic/index.html) is to collect proposed full-reference objective image quality assessment metrics
+that cover the range from good quality to lossless coding.
+Such a metric quantifies perceptual differences between stimuli, in particular between a source image and a distorted image.
+The proposals should target specifically distortions due to compression and not necessarily other kinds of distortions, e.g., capture, sensor, or rendering artifacts.
 
-Link to the [Use Cases and Requirements for Image Quality Assessment v6.0](https://github.com/user-attachments/assets/81c0cc80-775f-4a65-a344-e96897d575d6)
+Main page: https://aicdb.jpeg.org
 
+Relevant documents:
 
-# JPEG-AIC-4 Example Dataset
+* [Final Call for Proposals on Objective Quality Assessment (AIC-4)](https://jpeg.org/aic/documentation.html)
+* [Common Test Condition on objective Image Quality Assessment](https://jpeg.org/aic/documentation.html)
+* [Use Cases and Requirements for Image Quality Assessment v6.0](https://ds.jpeg.org/documents/jpegaic/wg1n101058-106-REQ-Use_Cases_and_Requirements_for_Image_Quality_Assessment_v6_0.pdf)
 
-This dataset is prepared for the Final Call for Proposals on Objective Quality Assessment(AIC-4)
-
-The documnet for the Common Test Conditions on Objective Image Quality Assessment can be found here.
-
-The JPEG link for this call can be accessed at: https://aicdb.jpeg.org
 
 
 ## Repository: `JPEG-AIC-4 Example Dataset`
@@ -37,8 +38,7 @@ Testolina, Michela, Mohsen Jenadeleh, Shima Mohammadi, Shaolin Su, Joao Ascenso,
 
 #### `JPEG_AIC_reconstructed_jnd_scores.csv`
 
-Reconstructed scores in JND units for teh percived distortion using JPEG AIC-3  test methodlogy.
-
+Reconstructed scores in JND units for the perceived distortion using the JPEG AIC-3 test methodlogy.
 
 ##### Columns
 
@@ -50,9 +50,9 @@ Reconstructed scores in JND units for teh percived distortion using JPEG AIC-3  
 | `img_source`      | Categorical | Filename of the source image.                                                                    |
 | `img_distorted`   | Categorical | Filename of the compressed test image.                                                           |
 | `distortion`      | Numeric     | The reconstructed subjective scale value in JND (just noticeable difference) unites.             |
-| `CI_min`          | Numeric     | The lower bound of 95% confidence interval of the estimated JND score.                           |   
-| `CI_max`          | Numeric     | The upper bound of 95% confidence interval of the estimated JND score.                           |                  
-               
+| `CI_min`          | Numeric     | The lower bound of 95% confidence interval of the estimated JND score.                           |
+| `CI_max`          | Numeric     | The upper bound of 95% confidence interval of the estimated JND score.                           |
+
 #### `JPEG-AIC_metric_scores.csv`
 
 Objective scores for the percived distortion predicted by some anchor objective image quality assessment (IQA) metrics. The scores are mapped to from the metric original scale to JND units using the following mapping function: 
@@ -68,8 +68,8 @@ f(x)=(α⋅min(0,β−x))
 | `codec`           | Numeric     | Codec used for the test image.                                                                   |
 | `dlevel`          | Numeric     | Distortion level of the test image.                                                              |
 | `distortion`      | Numeric     | The reconstructed subjective scale value in JND (just noticeable difference) unites.             |
-| `metric`          | Numeric     | The perdicted quality score by the objective metric fro the test image in the original scale.    |   
-| `metric mapped`   | Numeric     | The mapped objective score to JND unites using a mapping function.                               |  
+| `metric`          | Numeric     | The perdicted quality score by the objective metric fro the test image in the original scale.    |
+| `metric mapped`   | Numeric     | The mapped objective score to JND unites using a mapping function.                               |
 
 ## Contact
 
