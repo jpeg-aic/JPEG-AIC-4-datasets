@@ -10,9 +10,6 @@ The JPEG link for this call can be accessed at: https://aicdb.jpeg.org
 
 [Download JPEG-AIC-4 Example Dataset](https://aicdb.jpeg.org/aic-4/JPEG-AIC-4-example-dataset.zip)
 
-## Overview
-
-This dataset contains the test images and the subjective quality scores for the JPEG AIC-3 image quality assessment(IQA)dataset. 
 
 For detailed information about the Subjective study and the scale reconstruction methods, see the methodology presented in the following papers:
 
