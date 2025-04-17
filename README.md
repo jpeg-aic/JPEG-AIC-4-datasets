@@ -46,6 +46,7 @@ Reconstructed scores in JND units for teh percived distortion using JPEG AIC-3  
 ### `JPEG-AIC_metric_scores.csv`
 
 Objective scores for the percived distortion predicted by some anchor objective image quality assessment (IQA) metrics. The scores are mapped to from the metric original scale to JND units using teh following mapping function: 
+f(x)=(α⋅min(0,β−x)) 
 
 #### Columns
 
