@@ -13,6 +13,7 @@ Main page: https://aicdb.jpeg.org
 Relevant documents:
 
 * [Final Call for Proposals on Objective Quality Assessment (AIC-4)](https://jpeg.org/aic/documentation.html)
+* [AIC-4 Proposal Submission Template](https://jpeg.org/aic/documentation.html)
 * [Common Test Condition on objective Image Quality Assessment](https://jpeg.org/aic/documentation.html)
 * [Use Cases and Requirements for Image Quality Assessment v6.0](https://ds.jpeg.org/documents/jpegaic/wg1n101058-106-REQ-Use_Cases_and_Requirements_for_Image_Quality_Assessment_v6_0.pdf)
 
