@@ -21,7 +21,7 @@ Relevant documents:
 
 ## Repository: `JPEG-AIC-4 Example Dataset`
 
-[Download JPEG-AIC-4 Example Dataset](https://aicdb.jpeg.org/aic-4/JPEG-AIC-4-example-dataset.zip)
+[Download JPEG-AIC-4 Example Dataset](https://drive.google.com/file/d/19P_avUx-wVPyqTS2efFgVc0tbWQ7viVO/view?usp=sharing)
 
 
 For detailed information about the Subjective study and the scale reconstruction methods, see the methodology presented in the following papers:
